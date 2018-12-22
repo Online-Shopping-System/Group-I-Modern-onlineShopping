@@ -1,0 +1,32 @@
+/*Login page banner*/
+
+#banner{
+    background-image: url(../imgs/slide.jpg);
+    background-size:cover;
+    position:relative;
+    margin-top: 125px
+}
+
+#banner:before{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+}
+.page_title{
+    display:inline-block;
+    float:left
+}
+.banner_area {
+    display: table;
+    width: 100%
+}
+.page_location{
+    float:right;
+    text-transform:capitalize;
+    line-height: 24px
+}
+.page_location > i{
+    padding:0px 5px
+}
