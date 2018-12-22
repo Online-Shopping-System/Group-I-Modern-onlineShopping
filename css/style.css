@@ -4,7 +4,7 @@
     background-image: url(../imgs/slide.jpg);
     background-size:cover;
     position:relative;
-    margin-top: 125px
+    margin-top: 1px
 }
 
 #banner:before{
@@ -16,18 +16,21 @@
 }
 .page_title{
     display:inline-block;
-    float:left
+    float:center;
+    color: white;
 }
 .banner_area {
     display: table;
     width: 100%
-    height : 30%;
 }
 .page_location{
     float:right;
     text-transform:capitalize;
-    line-height: 24px
+    line-height: 140px
 }
 .page_location > i{
-    padding:0px 5px
+    padding:5px 5px
+}
+section > i{
+    color: white;
 }
